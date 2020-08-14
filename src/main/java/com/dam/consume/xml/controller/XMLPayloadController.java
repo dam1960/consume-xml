@@ -17,6 +17,6 @@ public class XMLPayloadController {
 
     @PostMapping("/save")
     public XMLPayload save(@RequestBody String xml) {
-    return null;
+        return xmlPayloadService.save(xml);
     }
 }
