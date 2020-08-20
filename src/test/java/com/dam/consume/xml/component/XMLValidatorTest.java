@@ -2,9 +2,8 @@ package com.dam.consume.xml.component;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class XMLValidatorTest {
 

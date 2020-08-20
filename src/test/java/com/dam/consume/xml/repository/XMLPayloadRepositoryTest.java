@@ -29,7 +29,7 @@ public class XMLPayloadRepositoryTest {
     @Test
     public void save() throws IOException {
         XMLPayload xmlPayload = new XMLPayload();
-        xmlPayload.setXml(Files.readString(Path.of("src/test/resources/sample.xml")));
+        xmlPayload.setXml(Files.readString(Path.of("src/test/resources/notes.xml")));
         XMLPayload xmlPayload1 = xmlPayloadRepository.save(xmlPayload);
 
         assertNotNull(xmlPayload1);

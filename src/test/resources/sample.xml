@@ -1,7 +1,6 @@
-<breakfast_menu>
-    <food>
-        <name>Belgian Waffles</name>
-        <price>$5.95</price>
-        <calories>650</calories>
-    </food>
-</breakfast_menu>
+<note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
